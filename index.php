@@ -58,7 +58,7 @@ Provate a far interagire tra di loro gli oggetti: ad esempio, l'utente dello sho
         $users[3]->address = 'Via Capruzzi 109';
         $users[3]->city = 'Bari';
         $users[3]->cap = '70121';
-        // $users[3]->setAge(14);
+        $users[3]->setAge(14);
         $users[4]->address = 'Via Battaglia 11';
         $users[4]->city = 'Torino';
         $users[4]->cap = '10092';
