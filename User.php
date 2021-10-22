@@ -32,7 +32,11 @@
         }
 
         function setAge($_age) {
-            $this->age = $_age;
+            if ($_age >= 18){
+                $this->age = $_age;
+            } else {
+                throw new Exception('Mi dispiace, devi essere maggiorenne per poter acquistare.');
+            }
         }
 
         function getAge(){

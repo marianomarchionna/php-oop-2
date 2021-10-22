@@ -6,7 +6,7 @@
         public $cap;
 
         public function getAddress(){
-            return $this->address . ', ' . $this->city  . ' - ' . $this->cap;
+            return $this->address . ', ' . $this->city  . ' - ' . $this->cap . '. ';
         }
     }
 
